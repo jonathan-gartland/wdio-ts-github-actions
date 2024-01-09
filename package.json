@@ -7,7 +7,8 @@
     "test": "npx wdio run wdio.conf.ts",
     "spec": "wdio --spec ./test/specs/$FILE",
     "grep": "npm run test -- --mochaOpts.grep",
-    "report": "allure generate --clean allure-results && allure open"
+    "report": "allure generate --clean allure-results && allure open",
+    "lint": "eslint"
   },
   "author": "Madhan",
   "license": "MIT",
